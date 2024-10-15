@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = "head">List of books</h1>
+    <ul>
+        <li class = "a">Book Name-1</li>
+        <li>Book Name-2</li>
+        <li class = "a">Book Name-3</li>
+        <li>Book Name-4</li>
+        <li>Book Name-5</li>
+    </ul>
+
+    <h1>List Of fruits</h1>
+    <ul>
+        <li>List of fruits-1</li>
+        <li>List of fruits-2</li>
+        <li>List of fruits-3</li>
+        <li>List of fruits-4</li>
+        <li>List of fruits-5</li>
+        <li>List of fruits-6</li>
+        <li>List of fruits-7</li>
+        
+        
+    </ul>
+    </body>
+    </html>
+
+<script>
+    let headH1 = document.getElementById("head");
+    headH1.style.color ="blue"
+    
+
+    let classA = document.getElementsByClassName("a");
+    for(aa of classA){
+        aa.style.color = "brown"
+        aa.style.fontStyle="italic"
+        aa.style.fontSize="20px"
+    }
+</script>
+
